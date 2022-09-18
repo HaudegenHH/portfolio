@@ -18,20 +18,33 @@
   margin: auto;
   width: 100%;
   height: 100%;
-  top: 40vh;  
+  top: 40vh;
 }
 
 .hero .content h1 {
   font-size: 4rem;
-  color: #fff;  
+  color: #fff;
 }
 
 .hero p {
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 200;
   text-transform: uppercase;
-  margin: 1.6rem;
+  margin-bottom: 1.6rem;
   color: #fff;
 }
 
+.hero .btn {
+  margin: 1rem .2rem;
+}
 
+@media screen and (max-width:640px) {
+  .content h1 {
+      font-size: 3rem;
+  }
+
+  .content p {
+      font-size: 1.4rem;
+      margin-bottom: 1.6rem;
+  }
+}

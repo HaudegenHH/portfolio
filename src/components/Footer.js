@@ -19,12 +19,10 @@ const Footer = () => {
                 </div>
                 <div className='right'>
                     <h4>Passion for web development?</h4>
-                    <p>Please feel free to contact me at any time.</p>
-                    <div className='social'>
+                    <p>Please feel free to contact me at any time.</p><br />
+                    <div className='social'>                        
                         <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                        <a target="_blank" rel="noreferrer" href="https://github.com/HaudegenHH">
-                          <FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
-                        </a>
+                        <FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                         <FaXing size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                         <FaLinkedin size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                     </div>
